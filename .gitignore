@@ -1,0 +1,16 @@
+# Ignore compiled binaries
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# Ignore executable files
+ring_comm
+send_recv
+
+# Ignore MPI-specific output files (if any)
+core.*
+
+*.json
+.test1.c
